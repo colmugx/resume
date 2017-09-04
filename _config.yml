@@ -1,0 +1,60 @@
+title: xxxx | 简历
+job:
+language: zh-CN
+
+profile:
+  name:
+  job:
+  phone:
+  homepage:
+  github:
+  email:
+  qq:
+
+educations:
+  - time:
+    school:
+    major:
+
+personal:
+  - 填写你的个人介绍，爱好
+  - 可以有很多行
+
+skills:
+  - name:
+    content:
+      -
+
+  - name:
+    content:
+      -
+
+  - name:
+    content:
+      -
+
+experiences:
+  - name:
+    time:
+    job:
+    summary:
+      - 介绍，可以有很多点
+
+project:
+  - name:
+    link:
+    stack:
+    summary:
+      - 介绍，可以有很多点
+
+  - name:
+    link:
+    stack:
+    summary:
+      -
+
+  - name:
+    link:
+    stack:
+    summary:
+      -

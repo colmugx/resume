@@ -1,0 +1,63 @@
+$time = 0.35s
+$back = 0.35s
+
+@keyframes fadeIn
+    from
+        opacity 0
+    to
+        opacity 1
+
+@keyframes fallIn
+    0%
+        opacity 0
+        transform translateY(-10px)
+    100%
+        opacity 1
+        transform none
+
+@keyframes sHeader
+    to
+        height 140px
+
+@keyframes typewriter
+    from
+        width 0
+    to
+        width 100%
+
+@keyframes line
+    from
+        left 50%
+        right 50%
+
+@keyframes line-vertical
+    from
+        height 0
+
+.syuanpi
+    animation-duration $time
+    animation-fill-mode both
+    animation-timing-function ease
+    transform translateZ(0)
+
+.s-header
+    animation-name sHeader
+    animation-delay 3.5s
+    animation-duration 0.5s
+    animation-timing-function ease-in-out
+
+.fade-in
+    animation-name fadeIn
+    animation-timing-function ease-in
+    animation-delay 2.4s
+
+.fade-down
+    animation-name fallIn
+    animation-timing-function ease-out
+    animation-delay 5.0s
+
+.typing-1
+    animation typewriter 1.4s steps(12) backwards 4.2s
+
+.typing-2
+    animation typewriter 1.4s steps(18) backwards 4.2s

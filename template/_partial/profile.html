@@ -1,0 +1,44 @@
+<div class="profile">
+    <h2 class="title typing-1">{{ cn_profile }}</h2>
+    <div class="profile-detail syuanpi fade-down">
+        <ul class="profile-list">
+            <li class="profile-item">
+                <span class="name">{{profile.name}}</span>
+            </li>
+            <li class="profile-item">
+                <i class="fa fa-paperclip"></i>
+                <span>{{profile.job}}</span>
+            </li>
+            {% if profile.phone %}
+                <li class="profile-item">
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:{{profile.phone}}">{{profile.phone}}</a>
+                </li>
+                {% endif %}
+                {% if profile.homepage %}
+                <li class="profile-item">
+                    <i class="fa fa-home"></i>
+                    <a href="{{profile.homepage}}">{{profile.homepage}}</a>
+                </li>
+                {% endif %}
+                {% if profile.github %}
+                <li class="profile-item">
+                    <i class="fa fa-github"></i>
+                    <a href="{{profile.github}}">{{profile.github}}</a>
+                </li>
+                {% endif %}
+                {% if profile.email %}
+                <li class="profile-item">
+                    <i class="fa fa-at"></i>
+                    <a href="mailto:{{profile.email}}">{{profile.email}}</a>
+                </li>
+                {% endif %}
+                {% if profile.qq %}
+                <li class="profile-item">
+                    <i class="fa fa-qq"></i>
+                    <span>{{ profile.qq }}</span>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

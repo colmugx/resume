@@ -1,0 +1,17 @@
+<div class="skill">
+    <h2 class="title typing-2">{{ cn_skill }}</h2>
+    <div class="skill-detail syuanpi fade-down">
+        <ul class="skill-list">
+        {% for skill in skills %}
+            <li class="skill-item">
+                <h3 class="skill-name">{{ skill.name }}</h3>
+                <ul class="skill-content">
+                {% for item in skill.content %}
+                    <li class="skill-content-item">{{ item }}</li>
+                {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

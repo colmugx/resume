@@ -1,0 +1,25 @@
+<script src="assets/js/qrcode.min.js"></script>
+<script src="https://cdn.bootcss.com/vivus/0.4.2/vivus.js"></script>
+<script>
+document.ready(function() {
+  let logo = new Vivus('svg-logo', {
+    type: 'delayed',
+    duration: 180,
+    animTimingFunction: Vivus.EASE
+  });
+  logo.play();
+
+  setTimeout(() => {
+    document.querySelector('body').style.overflow = 'auto';
+  }, 5000);
+
+  var qrcode = new QRCode(document.getElementById("qrcode-main"), {
+    text: window.location.href,
+    width: 150,
+    height: 150,
+    colorDark: "#3b3c3f",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.M
+  });
+});
+</script>

@@ -1,0 +1,19 @@
+<div class="experience">
+    <h2 class="title typing-2">{{ cn_experience }}</h2>
+    <div class="experience-detail syuanpi fade-down">
+        <ul class="experience-list">
+        {% for exp in experiences %}
+            <li class="experience-item">
+                <h3 class="experience-name">{{ exp.name }}</h3>
+                <time class="experience-time">{{ exp.time }}</time>
+                <h4 class="experience-job">{{ exp.job }}</h4>
+                <ul class="experience-summary">
+                {% for item in exp.summary %}
+                    <li class="experience-summary-item">{{ item }}</li>
+                {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

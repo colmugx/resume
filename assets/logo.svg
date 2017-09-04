@@ -1,0 +1,33 @@
+
+<svg width="451px" height="82px" viewBox="0 0 451 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="RESUME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="R" transform="translate(0.000000, 2.000000)" stroke="#979797">
+            <path d="M0.8359375,1.10415681 C23.1826045,-1.52555216 34.355938,5.57073594 34.355938,22.3930211 C34.355938,39.2153063 23.1826045,46.5819896 0.8359375,44.4930711 L34.355938,78"></path>
+        </g>
+        <g id="E" transform="translate(71.000000, 1.000000)" stroke="#979797" stroke-linecap="square">
+            <path d="M0,1 L33.52,1" id="Line-1"></path>
+            <path d="M0,40 L33.52,40" id="Line-2"></path>
+            <path d="M0,79 L33.52,79" id="Line-3"></path>
+        </g>
+        <g id="S" transform="translate(141.000000, -7.000000)" stroke="#979797">
+            <path d="M42.3076093,57.6457059 L42.3076093,57.6457059 L42.3076093,57.6457059 C31.5380566,62.7678102 26.9598952,75.6505435 32.0819995,86.4200961 C34.2139287,90.902614 37.8250914,94.5137767 42.3076093,96.6457059 L42.3076093,96.6457059" id="line-bot" transform="translate(36.145706, 77.145706) rotate(-135.000000) translate(-36.145706, -77.145706) "></path>
+            <path d="M24.5987168,-0.693128877 L24.5987168,-0.693128877 L24.5987168,-0.693128877 C13.8291642,4.42897542 9.25100275,17.3117087 14.373107,28.0812614 C16.5050363,32.5637792 20.1161989,36.1749419 24.5987168,38.3068711 L24.5987168,38.3068711" id="line-top" transform="translate(18.436813, 18.806871) rotate(45.000000) translate(-18.436813, -18.806871) "></path>
+        </g>
+        <g id="U" transform="translate(232.000000, 1.000000)" stroke="#979797">
+            <path d="M1.5,0.5 L1.5,50.5" id="Line-1" stroke-linecap="square"></path>
+            <path d="M35.5,0.5 L35.5,50.5" id="Line-2" stroke-linecap="square" transform="translate(35.500000, 25.500000) rotate(-180.000000) translate(-35.500000, -25.500000) "></path>
+            <path d="M25.9273248,55.4225517 L25.9273248,55.4225517 L25.9273248,55.4225517 C16.5384841,56.6942489 9.95823911,65.3363224 11.2299363,74.7251632 C12.265732,82.3723611 18.2801269,88.3867561 25.9273248,89.4225517 L25.9273248,89.4225517" id="Path-3" transform="translate(18.500000, 72.422552) rotate(-90.000000) translate(-18.500000, -72.422552) "></path>
+        </g>
+        <g id="M" transform="translate(305.000000, 0.000000)" stroke="#979797" stroke-linecap="square">
+            <path d="M0,19.4452096 L10.1699605,3.32981515" id="Line-1"></path>
+            <path d="M14,-2.84217094e-14 L37.2746926,79.0123457" id="Line-2"></path>
+            <path d="M37,19.4822466 L47.1699605,3.36685219" id="Line-3"></path>
+            <path d="M51,-2.84217094e-14 L74.2746926,79.0123457" id="Line-4"></path>
+        </g>
+        <g id="E2" transform="translate(416.000000, 2.000000)" stroke="#979797" stroke-linecap="square">
+            <path d="M0,1 L33.52,1" id="Line-1"></path>
+            <path d="M0,40 L33.52,40" id="Line-2"></path>
+            <path d="M0,79 L33.52,79" id="Line-3"></path>
+        </g>
+    </g>
+</svg>

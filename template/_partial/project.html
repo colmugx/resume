@@ -1,0 +1,27 @@
+<div class="project">
+    <h2 class="title typing-2">{{ cn_project }}</h2>
+    <div class="project-detail syuanpi fade-down">
+        <ul class="project-list">
+        {% for pj in project %}
+            <li class="project-item">
+                <div class="project-title">
+                    <h3 class="project-name">{{ pj.name }}</h3>
+                    <div class="project-tags">
+                    {% for tag in pj.stack %}
+                        <span class="tags-item">{{ tag }}</span>
+                    {% endfor %}
+                    </div>
+                </div>
+                <div class="project-link">
+                    Link: <a href="{{ pj.link }}">{{ pj.link }}</a>
+                </div>
+                <ul class="project-summary">
+                {% for item in pj.summary %}
+                    <li class="project-summary-item">{{ item }}</li>
+                {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

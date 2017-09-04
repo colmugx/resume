@@ -1,0 +1,12 @@
+<div class="personal">
+    <h2 class="title typing-1">{{ cn_personal }}</h2>
+    <div class="personal-detail syuanpi fade-down">
+        <ul class="personal-list">
+        {% for info in personal %}
+            <li class="personal-item">
+                <span>{{ info }}</span>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

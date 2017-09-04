@@ -1,0 +1,138 @@
+.left
+    float left
+    +mobile()
+        float none
+
+.info
+    height 100%
+    width 40%
+    position relative
+    +print()
+        height 100vh
+    +mobile()
+        width 100%
+
+.profile
+.education
+.personal
+    padding (yard*2)
+
+.profile
+    .profile-detail
+        color $main-color
+        .profile-list
+            list-style none
+            .profile-item
+                margin (yard) 0
+                line-height 1.4
+                span
+                    padding-left (yard / 2)
+                a
+                    text-decoration none
+                    color inherit
+                    padding-left (yard / 2)
+                    &:hover
+                        text-shadow 1px 1px 2px #bbb
+                .name
+                    font-size: 22px
+
+        position relative
+        &:after
+            content ''
+            position absolute
+            left 0
+            right 20%
+            top -10px
+            border-top: 1px solid #ddd
+            height 1px
+            +mobile()
+                width 100%
+
+.education
+    .education-detail
+        .education-list
+            list-style none
+            .education-item
+                color $main-color
+            .education-time
+                font-size 12px
+                color $sup-color
+            .education-msg
+                margin (yard / 2) 0
+            .education-school
+                color inherit
+            .education-major
+                font-size 14px
+                &:before
+                    content ' · '
+        position relative
+        &:after
+            content ''
+            position absolute
+            left 0
+            right 20%
+            top -10px
+            border-top: 1px solid #ddd
+            height 1px
+            +mobile()
+                width 100%
+
+.personal
+    .personal-detail
+        .personal-list
+            list-style none
+            .personal-item
+                margin (yard) 0
+                line-height 1.6
+                &:before
+                    content: '- '
+        position relative
+        &:after
+            content ''
+            position absolute
+            left 0
+            right 20%
+            top -10px
+            border-top: 1px solid #ddd
+            height 1px
+            +mobile()
+                width 100%
+
+.title
+    font-size 24px
+    padding-bottom (yard)
+    margin-bottom (yard / 2)
+    position relative
+    overflow hidden
+    white-space nowrap
+
+.qrcode
+    text-align center
+    width 220px
+    margin (yard*2)
+    margin-left 0
+    .qrcode-main
+        display inline-block
+        padding yard
+    span
+        display block
+    .btn-group
+        display flex
+        flex-direction column
+        align-items center
+        .btn
+            outline none
+            padding (yard) (yard*2)
+            background-color #fff
+            border-radius 6px
+            border 1px solid $sup-color
+            margin: (yard) 0
+            &:nth-child(1)
+                margin-top (yard*2)
+        +print()
+            display none
+    +print()
+        position absolute
+        bottom 20%
+    +mobile()
+        display none

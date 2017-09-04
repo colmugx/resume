@@ -1,0 +1,29 @@
+.header
+    width 100vw
+    height 100vh
+    display flex
+    align-items center
+    justify-content center
+    padding (yard*2) 6%
+    padding-bottom 0
+    box-sizing border-box
+    position relative
+    &:after
+        content ' '
+        position absolute
+        left 6%
+        right 6%
+        bottom 0
+        border-bottom: 1px solid #c4c4c4
+        animation line .6s ease backwards 4.1s
+        +mobile()
+            content none
+    .header-wrapper
+        .header-subtitle
+            padding-top yard
+            color #ccc
+    +mobile()
+        object
+            height 50px
+    // +print()
+    //     display none

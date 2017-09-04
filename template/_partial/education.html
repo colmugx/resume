@@ -1,0 +1,16 @@
+<div class="education">
+    <h2 class="title typing-1">{{ cn_education }}</h2>
+    <div class="education-detail syuanpi fade-down">
+        <ul class="education-list">
+            {% for education in educations %}
+            <li class="education-item">
+                <div class="education-time">{{ education.time }}</div>
+                <div class="education-msg">
+                    <span class="education-school">{{ education.school }}</span>
+                    <span class="education-major">{{ education.major }}</span>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
